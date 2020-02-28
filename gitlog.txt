@@ -46,4 +46,5 @@
   실제로  git 에 push 하는 명령어
   - git push origin +master
  mission :: 
-  다른 사람 git 가져오기
+  다른 사람 git 가져오기 14:07 -https://github.com/memoming/memoming_gitTest
+궁금한것 push pull 왜 따로하는거고 정확하게 저게 뭐하는것인가?

@@ -1,0 +1,55 @@
+내가 여태껏 했던것들을 로그로 남겨둘것임
+
+본 강의 : https://www.youtube.com/watch?v=tC8Xj_Bf8Fw&t=78s
+
+02_27
+오늘할 목차
+ 1.gitbash 설치
+   https://gitforwindows.org/(이것은 윈도우를 위한 것)
+ 2. new repository 생성
+  https://github.com/ 가서 로그인한 다음에 
+  (
+    user email: minjungdev@naver.com
+    user name: MinjungKimDev
+  )
+  new repository 라는 버튼 클릭
+  repository name 입력 ->
+   퍼블릭 프라이빗 선택하는 곳이 있는데 
+   퍼블릭은 모든사람에게 공유하는것이다 단 제한 업로드 제한은 가능하다 
+   프라이빗은 열람 업로드 모드 제한 가능 하다
+   강의에선 퍼브릭을 사용하였다
+ 루트 폴더 연결
+  기본폴더란? 웹상의 git 연결될 local folder
+  기본 폴더 만드는방법 
+   -원하는 위치에 폴더 만듦
+    *알아야할것!! - 루트 폴더를 연결하는 명령어
+     -git init
+     -git remote add orgin [repository address]
+   -그 폴더 오른쪽 마우스 클릭 - git bash shell 클릭
+   -위의 명령어를 맞춰서 입력함
+    -git init
+    -git remote add orgin https://github.com/MinjungKimDev/minjung_gitTest.git
+     *위 명령어를 쳤을때 아무말 없으면 연결된거임
+ push 전엔 pull 이 있다 05:07
+  서버에 파일 올릴떄 내가 누군지 서버에 알리기 위해 명령어를 씁시다
+  - git config --global user.name "MinjungKimDev"
+  - git config --global user.email "minjungdev@naver.com"
+  지정 해놓은 repository에서 끌어오기 command
+  - git pull origin master
+  현재 git 과의 상태를 check command
+  - git status
+ 변경된 파일들을 모두 tracking 하는 command 
+   (이 명령은 로컬 폴더 와 깃 레퍼스토리 사이에 어떠한 변경된 파일이 실제의 그 모든 파일들을 트래킹해달란 명령입니다)
+  - git add .
+  인식 할 수 있는 commit을 달아줍니다
+  - git commit -m "message"
+  실제로  git 에 push 하는 명령어
+  - git push origin +master
+ mission :: 
+  다른 사람 git 가져오기
+깃헙깔기
+깃헙 회원가입하기
+깃헙 과 연결할 폴더 선정하기
+깃헙과 연결
+파일올리기
+ -여기서 에러남 10:53초에서 멈춤

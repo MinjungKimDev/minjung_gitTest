@@ -47,4 +47,10 @@
   - git push origin +master
  mission :: 
   다른 사람 git 가져오기 14:07 -https://github.com/memoming/memoming_gitTest
-궁금한것 push pull 왜 따로하는거고 정확하게 저게 뭐하는것인가?
+
+***No such remote ‘[name]’
+***이 에러는 존재하지 않는 리모트의 URL을 바꾸려고 시도할 때 생깁니다.
+
+origin 과 orgin 오타가...그리고 이건 걍 이름인걸로 알아냄 remote의 이름!! 
+
+궁금한것 push pull 왜 따로하는거고 정확하게 저게 뭐하는것인가? - push 가 서버에 올리는거고 pull은 받는거!!
